@@ -67,14 +67,16 @@ a:visited {
     background-color: #333;
     color: #fff;
     padding: 10px 15px;
-    border-none;
+    border: none;
 }
 .button:hover{
 background: red;
 color: #fff;
 }
 
-
+.clr{
+    clear: both;
+}
 .box-2 {
 border: 3px dotted #ccc;
 padding: 20px;
@@ -112,4 +114,24 @@ border-radius: 15px;
 .my-form input[type="text"], .my-form textarea{
     padding: 8px;
     width: 100%;
+}
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+     float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+
 }
