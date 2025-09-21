@@ -1,3 +1,69 @@
+/*root{
+    margin:0;
+    padding:0;
+}*/
 h1{
     color:green;
+}
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font:normal 16px Arial, Helvetica, Sans-serif; /*samma som ovan*/
+    line-height: 1.6em;
+}
+.box-1{
+    background-color: #333;
+    color:#fff;
+    border-right:5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    /*border: 5px red solid; Samma som ovan*/
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding-top: 20px;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    padding: 20px; /*samma som ovan*/
+}
+.box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-2 {
+border: 3px dotted #ccc;
+padding: 20px;
+margin: 20px 0;
+
+}
+.categories {
+border: 1px #ccc solid;
+padding: 10px;
+border-radius: 15px;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
 }
